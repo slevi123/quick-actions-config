@@ -1,0 +1,11 @@
+[turnon]
+label="Turns off blur and down opacity"
+exec="""hyprctl keyword decoration:blur:enabled false 
+hyprctl keyword decoration:active_opacity 0.6                                                                                                            | 10:15
+hyprctl keyword decoration:inactive_opacity 0.45"""
+
+[turnoff]
+label="Turns back on blur and turns up opacity"
+exec="""hyprctl keyword decoration:blur:enabled true
+hyprctl keyword decoration:active_opacity 0.9                                                                                                                 | 10:15
+hyprctl keyword decoration:inactive_opacity 0.5"""

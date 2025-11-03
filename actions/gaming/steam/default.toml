@@ -1,0 +1,3 @@
+[big-picture]
+label = "Open steam big picutre mode"
+exec = "uwsm app -- steam steam://open/bigpicture"

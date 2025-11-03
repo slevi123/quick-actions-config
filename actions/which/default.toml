@@ -1,0 +1,6 @@
+[home-manager]
+label = "Which home-manager program"
+script = "./home-manager"
+prefix = ""
+populate_options = ""
+show_response = true

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+path=$(which "$1")
+
+hm_path=$(ls -l "$path" | tr -s " " |cut  -d " " -f'9')
+store_path=$(ls -l "$hm_path" | tr -s " " |cut  -d " " -f'9')
+
+echo "$path"
+echo "$hm_path"
+echo "$store_path"

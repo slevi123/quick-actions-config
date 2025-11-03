@@ -1,0 +1,5 @@
+[screenshot.ocr]
+label = "Copy text from a screen region"
+exec = 'hyprshot -m region -o "/tmp" -f "ocr-shot.png" ; tesseract "/tmp/ocr-shot.png" - -l eng+hun'
+show_response = true
+copy=true

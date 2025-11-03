@@ -1,0 +1,5 @@
+[random.uuid]
+label="Generate a random UUID"
+exec='python -c "import uuid; print(uuid.uuid4())'
+show_response=true  # dont this this, but this version wont allow
+copy=true
